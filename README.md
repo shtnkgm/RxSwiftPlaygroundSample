@@ -33,6 +33,10 @@ Observableを生成するための関数
  - of
  - from
  - create
+ - range
+ - repeatElement
+ - generate
+ - doOn
  - error
  - deffered
 
@@ -59,6 +63,18 @@ RxCocoaで提供される関数
 
 #### create
  - クロージャーからストリームを生成する
+ 
+#### range
+ - start引数で指定する数から始まる連続する整数をcount引数で指定する数だけイベントを送信する
+
+#### repeatElement
+ - 
+
+#### generate
+ - 
+
+#### doOn
+ - 
 
 #### error
  - Errorのみ送信するストリームを生成する

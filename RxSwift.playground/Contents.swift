@@ -52,6 +52,33 @@ Observable<Int>.create { observer -> Disposable in
     .subscribe { print($0) }
     .disposed(by: disposeBag)
 
+log("range")
+Observable<Int>.range(start: 1, count: 3)
+    .subscribe { print($0) }
+    .disposed(by: disposeBag)
+
+log("repeatElement")
+Observable<Int>.repeatElement(1)
+    .take(3)
+    .subscribe { print($0) }
+    .disposed(by: disposeBag)
+
+log("generate")
+Observable<Int>.generate(initialState: 0, condition: { $0 < 3 }, iterate: { $0 + 1 })
+    .subscribe { print($0) }
+    .disposed(by: disposeBag)
+
+log("doOn")
+Observable.just(1)
+    .do(onNext: { print("do: onNext(\($0))") },
+        onError: { print("do: onError(\($0))") },
+        onCompleted: { print("do: onCompleted") },
+        onSubscribe: { print("do: onSubscribe") },
+        onSubscribed: { print("do: onSubscribed") },
+        onDispose: { print("do: onDispose") })
+    .subscribe { print($0) }
+    .disposed(by: disposeBag)
+
 log("error")
 
 Observable<Void>.error(error)
