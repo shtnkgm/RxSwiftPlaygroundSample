@@ -86,7 +86,9 @@ RxCocoaで提供される関数
  - subscribe後にそれ以降に送信したイベントのみを送信する
  
 #### ReplaySubject
- - subscribeしたタイミングに関わらず、全てのイベントを送信する
+ - subscribeしたタイミングに関わらず、subscrieする前のイベントを送信する
+ - create(bufferSize: )で指定した数だけイベントをキャッシュする
+ - createUnbounded()を使うと全てのイベントをキャッシュする
 
 #### BehaviorSubject
  - subscribe後に最後に送信したイベントとそれ以降に送信したイベントを送信する

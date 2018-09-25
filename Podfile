@@ -6,4 +6,5 @@ inhibit_all_warnings!
 
 target 'Main' do
   pod 'RxSwift'
+  pod 'RxCocoa'
 end
