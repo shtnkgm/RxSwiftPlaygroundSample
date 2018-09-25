@@ -99,7 +99,7 @@ RxCocoaで提供される関数
  - RxSwift4でBehaviorRelayに代わり、deprecated
  
 #### BehaviorRelay
- - CompletedとErrorを送信しないBehaviorSubjectのラッパー
+ - CompletedとErrorを送信しないBehaviorSubjectのラッパー
  - 値のアクセスはvalueプロパティとaccept関数で行う
  - RxCocoaで提供される
 
