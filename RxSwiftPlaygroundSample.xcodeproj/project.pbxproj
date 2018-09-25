@@ -19,7 +19,7 @@
 		20BF800147E9BAFEF01063C9 /* Pods-Main.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Main.release.xcconfig"; path = "Pods/Target Support Files/Pods-Main/Pods-Main.release.xcconfig"; sourceTree = "<group>"; };
 		A22FBB3CB35C6C6E15538A52 /* Pods_Main.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Main.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA46C3449C56DD3426E27D81 /* Pods-Main.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Main.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Main/Pods-Main.debug.xcconfig"; sourceTree = "<group>"; };
-		DA7FA06B213BC7E100CBC7EE /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DA7FA06B213BC7E100CBC7EE /* RxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DA7FA06C213BC80F00CBC7EE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DA7FA071213BC88B00CBC7EE /* Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7FA074213BC88B00CBC7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			children = (
 				DA9E2BD8215A8B9800111451 /* README.md */,
 				DA7FA06C213BC80F00CBC7EE /* Podfile */,
-				DA7FA06B213BC7E100CBC7EE /* MyPlayground.playground */,
+				DA7FA06B213BC7E100CBC7EE /* RxSwift.playground */,
 				DA7FA073213BC88B00CBC7EE /* Main */,
 				DA7FA072213BC88B00CBC7EE /* Products */,
 				4EA9B721C687ABE8FE3BAC0D /* Pods */,
