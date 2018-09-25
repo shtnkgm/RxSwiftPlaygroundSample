@@ -1,6 +1,5 @@
 // No such module 'RxSwift'とエラーが出る場合はビルドします
 import RxSwift
-import Foundation
 
 func log(_ message: String) {
     print("---")
