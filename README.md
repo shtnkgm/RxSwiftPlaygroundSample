@@ -73,9 +73,9 @@ RxCocoaで提供される関数
 #### rx_notification
 
 ## Subject
- - Observer、Observableの両方として機能する
+ - Observer、Observableの両方として機能する
 
-### Subjectのクラス
+### Subjectのクラス
  - PublishSubject
  - ReplaySubject
  - BehaviorSubject
@@ -86,14 +86,14 @@ RxCocoaで提供される関数
  - subscribe後にそれ以降に送信したイベントのみを送信する
  
 #### ReplaySubject
- - subscribeしたタイミングに関わらず、全てのイベントを送信する
+ - subscribeしたタイミングに関わらず、全てのイベントを送信する
 
 #### BehaviorSubject
- - subscribe後に最後に送信したイベントとそれ以降に送信したイベントを送信する
+ - subscribe後に最後に送信したイベントとそれ以降に送信したイベントを送信する
  - 初期値を持つ 
 
 #### Variable
- - Errorを送信しないBehaviorSubjectのラッパー
+ - Errorを送信しないBehaviorSubjectのラッパー
  - dealloc時にCompletedを送信
  - 値のアクセスはvalueプロパティのgetter/setterで行う
  - RxSwift4でBehaviorRelayに代わり、deprecated
@@ -127,11 +127,11 @@ Observableから送信されるイベントを変換する関数
 
 #### flatMap
  - Observableで送信されるイベントそれぞれに関数を適用する
- - 関数で空のイベント(empty)を返した場合はイベントを送信しない
+ - 関数で空のイベント(empty)を返した場合はイベントを送信しない
  
 #### scan
  - Observableで送信されるイベントそれぞれに関数を適用する
- - 初期値を取り、関数の適用結果を保持する
+ - 初期値を取り、関数の適用結果を保持する
 
 #### buffer
  - 
@@ -159,7 +159,7 @@ Observableから送信されるイベントを絞り込む関数
  - 直前の重複するイベントを除去する
 
 #### take
- - 引数で指定する個数の最初のイベントを送信する
+ - 引数で指定する個数の最初のイベントを送信する
 
 ### 組み合わせ / Combining
 Observableから送信されるイベントを組み合わせる関数
@@ -196,7 +196,7 @@ Observableから送信されるイベントを組み合わせる関数
  - retry  
  
 #### catchError
- - Errorが送信された時にErrorを送信せずに別のイベントを送信する
+ - Errorが送信された時にErrorを送信せずに別のイベントを送信する
  
 #### retry
  - Errorが送信された時に再度subscribeする
