@@ -3,11 +3,13 @@ import RxSwift
 
 func log(_ message: String) {
     print("---")
-    print("[" + message + "]")
+    print("# " + message)
 }
 
 let disposeBag = DisposeBag()
 let error = NSError(domain: "domain", code: 0, userInfo: nil)
+
+log("Observableの生成")
 
 log("empty")
 Observable<Void>
@@ -56,4 +58,16 @@ Observable<Void>.error(error)
     .disposed(by: disposeBag)
 
 log("deffered")
+let defferedObservable = Observable<Int>.deferred { () -> Observable<Int> in
+    print("return Observable")
+    return .just(1)
+}
+
+defferedObservable
+    .subscribe { print($0) }
+    .disposed(by: disposeBag)
+
+defferedObservable
+    .subscribe { print($0) }
+    .disposed(by: disposeBag)
 
