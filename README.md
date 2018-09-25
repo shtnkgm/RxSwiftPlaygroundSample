@@ -66,11 +66,11 @@ RxCocoaで提供される関数
 #### deffered
  - subscribeされたタイミングでObservableを返すストリームを生成する
 
-#### rx_observe
+#### rx.observe
 
-#### x_tap
+#### rx.tap
 
-#### rx_notification
+#### rx.notification
 
 ## Subject
  - Observer、Observableの両方として機能する
