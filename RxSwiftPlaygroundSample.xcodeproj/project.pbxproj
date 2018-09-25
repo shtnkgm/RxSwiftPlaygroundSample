@@ -28,6 +28,7 @@
 		DA7FA07B213BC88D00CBC7EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA7FA07E213BC88D00CBC7EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA7FA080213BC88D00CBC7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9E2BD8215A8B9800111451 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		DA7FA064213BC70200CBC7EE = {
 			isa = PBXGroup;
 			children = (
+				DA9E2BD8215A8B9800111451 /* README.md */,
 				DA7FA06C213BC80F00CBC7EE /* Podfile */,
 				DA7FA06B213BC7E100CBC7EE /* MyPlayground.playground */,
 				DA7FA073213BC88B00CBC7EE /* Main */,
