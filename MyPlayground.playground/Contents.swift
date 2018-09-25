@@ -1,5 +1,4 @@
-//: Playground - noun: a place where people can play
-
+// No such module 'RxSwift'とエラーが出る場合はビルドします
 import RxSwift
 import Foundation
 
