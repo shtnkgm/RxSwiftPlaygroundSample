@@ -170,10 +170,11 @@ Observableから送信されるイベントを絞り込む関数
  - take
  - debounce
  - elementAt
+ - single
+ - takeLast
+ - skip
  - ignoreElements
  - sample
- - skip
- - takeLast
  - distinct
 
 #### filter
@@ -184,6 +185,20 @@ Observableから送信されるイベントを絞り込む関数
 
 #### take
  - 引数で指定する個数の最初のイベントを送信する
+
+#### elementAt
+ - 引数で指定したインデックスのイベントのみ送信する
+ 
+#### single
+ - 条件を指定しない場合は最初のイベントのみ送信する
+ - 条件を指定する場合は一致するものが1つであればそのイベントを送信する
+ - 条件に一致するものがない、もしくは複数条件に一致する場合はerrorを送信する
+
+#### takeLast
+ - 引数で指定する個数の最後のイベントを送信する
+
+#### skip
+ - 引数で指定する個数の最初のイベントを送信せず、それ以降のイベントを送信する
 
 ### 組み合わせ / Combining
 Observableから送信されるイベントを組み合わせる関数
