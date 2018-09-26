@@ -20,7 +20,8 @@ RxTableViewDataSourceType
 Binder
 throttle
 flatMapLatest
-catchErrorJustReturn
+debug
+RxSwift.resourceCount
 ```
 
 ## Observer
@@ -243,8 +244,12 @@ Observableから送信されるイベントを組み合わせる関数
 
 ### エラー処理 / Error Handling
 
+ - catchErrorJustReturn
  - catchError
  - retry  
+ 
+#### catchErrorJustReturn
+ - Errorが送信された時に引数で指定した値をNextとして送信する
  
 #### catchError
  - Errorが送信された時にErrorを送信せずに別のイベントを送信する
