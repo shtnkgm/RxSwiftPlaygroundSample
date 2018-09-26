@@ -275,6 +275,7 @@ Hot Observableと呼ばれる性質を持つ
 #### publish
 
 # 参考
+ - [ReactiveX/RxSwift](https://github.com/ReactiveX/RxSwift)
  - [ReactiveX - Operators](http://reactivex.io/documentation/operators.html)
  - [RxSwift 入門 その１](http://tiny-wing.hatenablog.com/entry/2016/01/02/161322)
  - [RxSwift 入門 その２](http://tiny-wing.hatenablog.com/entry/2016/01/11/172915) 
