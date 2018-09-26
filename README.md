@@ -173,6 +173,9 @@ Observableから送信されるイベントを絞り込む関数
  - single
  - takeLast
  - skip
+ - skipWhile
+ - skipWhileWithIndex
+ - skipUntil
  - ignoreElements
  - sample
  - distinct
@@ -199,6 +202,15 @@ Observableから送信されるイベントを絞り込む関数
 
 #### skip
  - 引数で指定する個数の最初のイベントを送信せず、それ以降のイベントを送信する
+
+#### skipWhile
+ - 引数で指定する条件を満たす場合はイベントをスキップし、それ以降はイベントを送信する
+
+#### skipWhileWithIndex
+ - skipWhileでイベントのindexも条件として利用できるようにしたもの
+
+#### skipUntil
+ - 引数で指定するObservableにイベントが送信されるまでイベントを送信しない
 
 ### 組み合わせ / Combining
 Observableから送信されるイベントを組み合わせる関数
