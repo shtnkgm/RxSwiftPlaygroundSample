@@ -285,8 +285,12 @@ Observableから送信されるイベントを組み合わせる関数
  - 引数のクロージャーの戻り値がtrueとなるイベントまで送信し、それ以降は送信しない
 
 ### Mathematical and Aggregate
+ - toArray
  - concat
  - reduce
+
+#### toArray
+ - completeが送信されるまでのイベントをArrayとして送信する
 
 #### concat
  - 複数のストリームを直列で結合する
