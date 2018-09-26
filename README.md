@@ -2,6 +2,8 @@ RxSwift
 
 # 概要
 
+Todo
+```
 replayAll
 shareReplayLatestWhileConnected
 share
@@ -16,6 +18,10 @@ MainScheduler
 interval
 RxTableViewDataSourceType
 Binder
+throttle
+flatMapLatest
+catchErrorJustReturn
+```
 
 ## Observer
 
