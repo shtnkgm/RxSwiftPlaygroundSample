@@ -322,11 +322,11 @@ Hot Observableと呼ばれる性質を持つ
  - [RxSwift 入門 その１](http://tiny-wing.hatenablog.com/entry/2016/01/02/161322)
  - [RxSwift 入門 その２](http://tiny-wing.hatenablog.com/entry/2016/01/11/172915) 
  - [RxSwift 入門 その３](http://tiny-wing.hatenablog.com/entry/2016/01/16/075011)
- - [RxSwift 入門 その４
-](http://tiny-wing.hatenablog.com/entry/2016/01/17/182911)
+ - [RxSwift 入門 その４](http://tiny-wing.hatenablog.com/entry/2016/01/17/182911)
  - [RxSwift 入門 その５](http://tiny-wing.hatenablog.com/entry/2016/01/20/072221)
  - [RxSwift 入門 その６](http://tiny-wing.hatenablog.com/entry/2016/01/27/185927)
  - [RxSwift 入門 その７](http://tiny-wing.hatenablog.com/entry/2016/02/02/125453)
+ - [RxSwiftのDebounceとThrottle](https://qiita.com/dekatotoro/items/be22a241335382ecc16e)
  - [RxSwift Observable生成関数まとめ](https://qiita.com/moaible/items/de94c574b25ea4f0ef17) 
  - [RxSwift4で廃止になった Variable のリプレイス](https://qiita.com/mafmoff/items/7ffe707c2f3097b44297)
  - [【Swift】RxSwiftのPlaygroundを読む①](https://qiita.com/KentaKudo/items/d9ff7cdc639c24301456)
