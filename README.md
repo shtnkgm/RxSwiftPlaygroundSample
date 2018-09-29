@@ -20,6 +20,7 @@ RxTableViewDataSourceType
 Binder
 throttle
 flatMapLatest
+flatMapFirst
 debug
 RxSwift.resourceCount
 Single
@@ -343,3 +344,4 @@ Hot Observableと呼ばれる性質を持つ
  - [【Swift】RxSwiftのPlaygroundを読む⑨](https://qiita.com/KentaKudo/items/a319402edef7109b216c)
  - [RxSwiftのshare*の早見表](https://qiita.com/marty-suzuki/items/593fa9550455364c052e)
  - [RxSwift 3.3.0で追加された3つのUnit（Single, Maybe, Completable）](https://qiita.com/monoqlo/items/7bcec98432389b3b8909)
+ - [RxSwiftの機能カタログ](https://qiita.com/k5n/items/e80ab6bff4bbb170122d)
