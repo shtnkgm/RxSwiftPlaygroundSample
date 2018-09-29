@@ -3,8 +3,6 @@ import RxCocoa
 
 let disposeBag = DisposeBag()
 
-log("Subject")
-
 log("PublishSubject")
 
 let publishSubject = PublishSubject<Int>()

@@ -4,8 +4,6 @@ import RxCocoa
 let disposeBag = DisposeBag()
 let error = NSError(domain: "domain", code: 0, userInfo: nil)
 
-log("Observableの生成")
-
 log("empty")
 Observable<Void>
     .empty()

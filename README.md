@@ -22,6 +22,9 @@ throttle
 flatMapLatest
 debug
 RxSwift.resourceCount
+Single
+Maybe
+Completable
 ```
 
 ## Observer
@@ -339,3 +342,4 @@ Hot Observableと呼ばれる性質を持つ
  - [【Swift】RxSwiftのPlaygroundを読む⑧](https://qiita.com/KentaKudo/items/ea9fba6a4c471d1c2ca2)
  - [【Swift】RxSwiftのPlaygroundを読む⑨](https://qiita.com/KentaKudo/items/a319402edef7109b216c)
  - [RxSwiftのshare*の早見表](https://qiita.com/marty-suzuki/items/593fa9550455364c052e)
+ - [RxSwift 3.3.0で追加された3つのUnit（Single, Maybe, Completable）](https://qiita.com/monoqlo/items/7bcec98432389b3b8909)
